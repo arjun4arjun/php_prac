@@ -7,4 +7,5 @@ echo "$mail is valid";
 else {
 echo "Invalid mail address $mail";
 }
+echo "<br>----- Arjun Mehrania -----";
 ?>

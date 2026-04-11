@@ -26,5 +26,5 @@ echo"Ex- if $int3 is more than $int2, we will print it's value below:<br> ";
 do{
 echo "$int3";
 }while($int3 > $int2);
-
+echo "<br>----- Arjun Mehrania -----";
 ?>

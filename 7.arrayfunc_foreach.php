@@ -28,4 +28,5 @@ echo "$arr_pd ";
 echo"<br>Using <b>list method</b> on the original array: ";
 list($first,$sec,$three)=$arr;
 echo "$first,$sec,$three";
+echo "<br>----- Arjun Mehrania -----";
 ?>

@@ -13,5 +13,5 @@ echo "name of cookie is: $cook_nam and value is $_COOKIE[$cook_nam]";
 }
 else {
 echo "<br>cookie not found";}
-
+echo "<br>----- Arjun Mehrania -----";
 ?>

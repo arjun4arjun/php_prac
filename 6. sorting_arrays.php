@@ -2,9 +2,12 @@
 
 $i=0;
 $gaddi=array('porsche','bentley','mclaren','pagani');
+echo "Original array<br>";
+print_r($gaddi);
+echo "<br>-------------------";
 sort($gaddi);
 
-    echo"sorting the arrays alphabetically :<br>";
+    echo"<br><br>sorting the arrays alphabetically :<br>";
 for($i=0; $i<4;$i++){
     echo "$i: $gaddi[$i] <br>";
     }
@@ -35,5 +38,5 @@ foreach($keemat as $model=>$model_price){
     echo "$model is priced at: ₹$model_price crore <br>";
 }
 echo"-------------------- -------------------- ";
-
+echo "----- Arjun Mehrania -----";
 ?>

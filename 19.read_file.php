@@ -5,5 +5,5 @@ $f_data=fread($f_read, filesize("myfile.txt"));
 echo "<br>Content: $f_data";
 //echo fread($f_read,filesize("myfile.txt"));
 fclose($f_read);
-
+echo "<br>-----Arjun Mehrania-----";
 ?> 

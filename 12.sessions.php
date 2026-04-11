@@ -9,7 +9,7 @@
         if (isset($_SESSION["username"])) {
             $_SESSION["username"] = "Arjun0";
             $_SESSION["email"]="0arjun@msi.com";
-            $message = "Session username updated successfully";
+            $message = "Session username and email updated successfully";
         } else { $message = "No session data to update."; }
     }
     else if (isset($_POST['destroy'])) {
@@ -19,7 +19,7 @@
     $username = $_SESSION["username"] ?? "Not set";
     $email    = $_SESSION["email"]    ?? "Not set";
     echo "----- Arjun's Session -----";
-    $message="No data has been initialized";
+    
     ?>
     <!DOCTYPE html><html><head><title>PHP Session Usage</title></head><body>
     <h2>PHP Session Example</h2>

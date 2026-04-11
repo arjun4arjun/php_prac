@@ -51,4 +51,5 @@ echo " variable B as boolean: $bool_b";
 echo " - ";
 var_dump($bool_b);
 echo "<br>";
+echo "----- Arjun Mehrania -----";
 ?>
