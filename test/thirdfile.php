@@ -23,6 +23,10 @@ Do you wish to proceed: <button type="submit" name="btny">Yes</button>&nbsp<butt
 
 <?php
 //User inputs YES
+function viewdb(){
+echo "<form method='POST' action='fourthfile.php'>"."<button type='submit' name='viewdb'>View the table</button>"."</form>";
+
+}
 function proc_yes($name1,$Course1,$table1){
 $srvr="127.0.0.1";
 $usr="root";
@@ -43,6 +47,7 @@ echo $connec->error;
 }
 }
 if(isset($_POST["btny"])){
+viewdb();
 proc_yes($name1,$Course1,$table1);
 }
 elseif(isset($_POST["btnn"])){
