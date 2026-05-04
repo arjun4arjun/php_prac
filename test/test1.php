@@ -3,16 +3,25 @@
 <body>
 <p><?php echo "local php working"; ?></p>
 <!-- input form -->
-<form method="POST" enctype="multipart/form-data" action="thirdfile.php">
+<form method="POST" enctype="multipart/form-data">
 <h1>Records Modification database</h1>
 <p>Enter your name: <input type="text" name="nametxt"></p>
 <p>Enter your course: <input type="text" name="coursetxt"> </p>
 <p>Which table to insert the data: <input type="text" name="tbltxt"> </p>
 <p><input type="submit" name="sbt"></p>
-
+<input type="hidden" name="name1" value="<?php echo"$name";?>">
+<input type="hidden" name="course1" value="<?php echo "$Course";?>">
+<input type="hidden" name="table1" value="<?php echo "$table";?>">
 </form>
 <hr>
-
+<?php
+$name=$_POST["nametxt"];
+$Course=$_POST["coursetxt"];
+$table=$_POST["tbltxt"];
+if(isset($_POST['sbt']) || isset($_POST['btny']) || isset($_POST['btnn'])){
+include("fourthfile.php");
+}
+?>
 
 </body>
 </html>

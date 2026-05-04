@@ -1,11 +1,6 @@
 <html>
 <?php
 echo "php document running";
-if(isset($_POST["sbt"])){
-echo "if statement working<br>";
-
-$tex=$_POST['nametxt'];
-echo "$tex";
-}
+echo $name . "$Course1 $text" .$table1;
 ?>
 </html>

@@ -8,9 +8,7 @@ Do you wish to proceed: <button type="submit" name="btny">Yes</button>&nbsp<butt
 <input type="hidden" name="table1" value="<?php echo "$table";?>">
 </form>;
 
-<?php 
-include 'test1.php';
-verificate($connec,$name,$Course,$table);
+<?php
 $name1=$_POST["name1"];
 $Course1=$_POST["course1"];
 $table1=$_POST["table1"];
